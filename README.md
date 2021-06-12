@@ -2,9 +2,7 @@
   <img src="https://nowplayingapp.com/images/logo.svg" alt="Now Playing" width=512 />
 </a>
 
-## Show your currently play track from in your live streams. [nowplayingapp.com](https://nowplayingapp.com)
-
-[Discord](https://discord.gg/7bbHvZb)
+[Official Website](https://nowplayingapp.com) | [Support (Discord)](https://discord.gg/7bbHvZb) | [Twitch](https://twitch.tv/triodeofficial) | [Twitter](https://twitter.com/triodeofficial)
 
 ---
 
