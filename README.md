@@ -4,6 +4,8 @@
 
 ## Show your currently play track from in your live streams. [nowplayingapp.com](https://nowplayingapp.com)
 
+[Discord](https://discord.gg/7bbHvZb)
+
 ---
 
 # Project Goals
