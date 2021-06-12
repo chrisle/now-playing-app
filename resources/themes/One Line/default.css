@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Arial';
+  top: 0px;
+  left: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  position: absolute;
+}
+
+#title {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+#artist {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.fade {
+  opacity: 1;
+  transition: 1s opacity;
+}

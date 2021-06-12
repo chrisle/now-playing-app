@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  color: #ff16fc;
+  font-family: 'Aldrich';
+  padding-left: 36px;
+  padding-top: 20px;
+}
+
+#title {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#artist {
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+}
+
+.fade {
+  opacity: 1;
+  transition: 1s opacity;
+}
+
+.nowplaying {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}

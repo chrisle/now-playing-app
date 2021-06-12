@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Arial';
+  padding-left: 26px;
+  padding-top: 20px;
+}
+
+#title {
+  margin-top: 5px;
+  font-size: 43px;
+  font-weight: bold;
+}
+
+#artist {
+  margin-top: 5px;
+  font-size: 43px;
+  font-weight: normal;
+}
+
+.fade {
+  opacity: 1;
+  transition: 1s opacity;
+}
+
+.track-wrapper {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+}
+
+.now-playing-wrapper {
+  font-size: 30px;
+}
+
+.now-playing-white {
+  background-color: black;
+  color: rgb(227, 225, 99);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  animation: 0.3s inset;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.now-playing-red {
+  background-color: rgb(227, 225, 99);
+  color: black;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  animation: 0.9s inset;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@keyframes inset {
+  0% { clip-path: inset(0% 100% 0% 0%) }
+  100% { clip-path: inset(0% 0% 0% 0%) }
+}

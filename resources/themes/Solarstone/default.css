@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Arial';
+}
+
+#title {
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 0.8;
+}
+
+#artist {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+#label {
+  font-size: 55px;
+  font-weight: normal;
+  line-height: 0.8;
+}
+
+.fade {
+  opacity: 1;
+  transition: 1s opacity;
+}
+
+.track-wrapper {
+  position: absolute;
+  top: 00px;
+  left: 0px;
+}

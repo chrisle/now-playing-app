@@ -1,0 +1,27 @@
+body {
+  background-color: transparent;
+  filter: drop-shadow(2px 2px 2px #000000);
+  color: white;
+  font-family: 'Lato';
+  padding-left: 26px;
+  padding-top: 20px;
+}
+
+#title {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+#artist {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.fade {
+  opacity: 1;
+  transition: 1s opacity;
+}
+
+.now-playing {
+  font-size: 150%;
+}
