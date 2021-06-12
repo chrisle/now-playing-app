@@ -97,9 +97,8 @@ yarn cross-env DEBUG_PROD=true yarn build && yarn cross-env DEBUG_PROD=true yarn
   latency (like reading from faders instead of waiting for track history to
   update)
 - Avoid big differences between the Windows and Mac versions.
-- Avoid having to include other binaries in the app. (eg: https://github.com/Unreal-Dan/ RekordBoxSongExporter, https://github.com/icedream/go-stagelinq)
-  - They update often which would require more testing / frequent app updates
-    and I don't have much time to support the user's edge cases. :(
+- Avoid having to include other binaries in the app. (eg: [RekordBoxSongExporter](https://github.com/Unreal-Dan/RekordBoxSongExporter), [go-stagelinq](https://github.com/icedream/go-stagelinq)). They update often which would require more testing / frequent app updates.
+    Unfortunately between work, music, and gigs I don't have much time to provide user support.
 
 ## Separate Presentation from App
 
