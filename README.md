@@ -116,15 +116,15 @@ I'm a DJ & producer based out of San Francisco, California. My tracks are on
 Armada & Blackhole and I've had songs played on ASOT. I tour the US doing shows and livestream on [Twitch](https://twitch.tv/triodeofficial) Friday and Sunday when I'm not.
 By day, I'm a [software engineer](https://www.linkedin.com/in/iamchrisle/).
 
-- [Apple Music](https://music.apple.com/us/artist/triode/1278678740)
-- [Facebook](https://facebook.com/triodeofficial)
 - [Instagram](https://instagram.com/triodeofficial)
-- [SoundCloud](https://soundcloud.com/triodeofficial)
-- [Spotify](https://open.spotify.com/artist/6PeUGjC4XaZD1XysuYogDG)
-- [TikTok](https://tiktok.com/@triodeofficial)
 - [Twitch](https://twitch.tv/triodeofficial)
 - [Twitter](https://twitter.com/triodeofficial)
 - [YouTube](https://youtube.com/c/TriodeMusic)
+- [Spotify](https://open.spotify.com/artist/6PeUGjC4XaZD1XysuYogDG)
+- [SoundCloud](https://soundcloud.com/triodeofficial)
+- [Apple Music](https://music.apple.com/us/artist/triode/1278678740)
+- [Facebook](https://facebook.com/triodeofficial)
+- [TikTok](https://tiktok.com/@triodeofficial)
 
 
 # Shoutouts
