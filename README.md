@@ -6,38 +6,6 @@
 
 ---
 
-# Project Goals
-
-## Ease-of-Use Over Customization
-
-- The app should mostly figure things out on it's own. Like finding the
-  right database files, or in the case of Pioneer + ProDJ-link, detect DJ
-  equipment and try to "just-work".
-- Prioritized ease of use over the ability to customize.
-  - I took the "Apple" approach: Things should look and feel simple and
-    "polished" while sacrificing the ability to customize everything.
-
-## Ease-of-Use over Update Latency
-
-- Try not to require the user to need extra installation steps outside
-  of installing the app if neceesary. The trade off is you sacrifice update
-  latency (like reading from faders instead of waiting for track history to
-  update)
-- Avoid big differences between the Windows and Mac versions.
-- Avoid having to include other binaries in the app. (eg: https://github.com/Unreal-Dan/ RekordBoxSongExporter, https://github.com/icedream/go-stagelinq)
-  - They update often which would require more testing / frequent app updates
-    and I don't have much time to support the user's edge cases. :(
-
-## Separate Presentation from App
-
-- Send unified track data to a websocket and do presentation separately.
-- No matter what software you use, send track data the same way via websocket
-  then let a presentation layer handle how things look.
-- The original goal was simply to create a bridge from my CDJ2000nxs2 to
-  my Twitch bot.
-
----
-
 # Project Overview
 
 - The app is written in Typescript & React.
@@ -109,6 +77,37 @@ yarn cross-env DEBUG_PROD=true yarn build && yarn cross-env DEBUG_PROD=true yarn
 
 - Zip up `release/Now Playing Setup X.X.X.dmg` and upload that to the Now Playing
   website.
+---
+
+# Project Philosophy
+
+## Ease-of-Use Over Customization
+
+- Prioritized ease of use (see below) over the ability to customize.
+- The app should mostly figure things out on it's own. Like finding the
+  right database files, or in the case of Pioneer + ProDJ-link, detect DJ
+  equipment and try to "just-work".
+- Take the "Apple" approach: Things should look and feel simple while
+  sacrificing some ability to customize.
+
+## Ease-of-Use over Update Latency
+
+- Try not to require the user to need extra installation steps outside
+  of installing the app if neceesary. The trade off is you sacrifice update
+  latency (like reading from faders instead of waiting for track history to
+  update)
+- Avoid big differences between the Windows and Mac versions.
+- Avoid having to include other binaries in the app. (eg: https://github.com/Unreal-Dan/ RekordBoxSongExporter, https://github.com/icedream/go-stagelinq)
+  - They update often which would require more testing / frequent app updates
+    and I don't have much time to support the user's edge cases. :(
+
+## Separate Presentation from App
+
+- Send unified track data to a websocket and do presentation separately.
+- No matter what software you use, send track data the same way via websocket
+  then let a presentation layer handle how things look.
+- The original goal was simply to create a bridge from my CDJ2000nxs2 to
+  my Twitch bot.
 
 ---
 
